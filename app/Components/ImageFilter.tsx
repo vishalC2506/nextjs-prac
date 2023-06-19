@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { SliderPicker } from "react-color";
 const ImageFilter = () => {
   const [currentColor, setCurrentColor] = React.useState("#ff6");
-  const handleOnChange = (color) => {
+  const handleOnChange = (color:any) => {
     setCurrentColor(color.hex);
     console.log(color);
   };
