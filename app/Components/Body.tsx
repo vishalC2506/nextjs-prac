@@ -219,7 +219,7 @@ items-center `}
             <h5
               className="text-slate-400 font-bold font-plan text-transparent 
                         bg-clip-text bg-gradient-to-b from-slate-200
-                        to-gray-800 opacity-40 font-semibold"
+                        to-gray-800 opacity-40 "
             >
               Hue Saturation
             </h5>
