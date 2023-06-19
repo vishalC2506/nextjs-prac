@@ -205,7 +205,7 @@ items-center `}
           </div>
           <div className="row-span-[5/6] justify-center flex items-center">
             <Image
-              src="/images/AddIcon.png"
+              src="/images/Add.png"
               width={10}
               height={10}
               alt="load err"
