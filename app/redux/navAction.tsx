@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 const initialState = {
-  value: false,
+  value:true,
 };
 
 export const navActive = createSlice({

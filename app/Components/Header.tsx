@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <header
       className={` bg-[#0D0F10] grid grid-flow-row  
-                       w-full rounded-2xl row-span-[1/2]`}
+                       w-full rounded-2xl row-span-[1/2] `}
     >
       <div className="row-span-[1/2]  flex justify-between p-4">
         <div className="font-plan">
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
               alt="load err"
             />
           </button>
-          <button className="text-white sm:hidden ml-4" onClick={handleMenu}>
+          <button className="text-white sm:hidden ml-4 " onClick={handleMenu}>
             <AiOutlineMenu />
           </button>
         </div>

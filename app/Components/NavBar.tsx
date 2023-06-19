@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
           !isActive ? "grid" : "hidden"
         }  col-span-[1/2] row-span-1 
        sm:grid grid-rows-[minmax(min-content,1fr)_minmax(min-content,1.5fr)_minmax(min-content,3.8fr)_minmax(min-content,0.7fr)]
-       h-screen z-50 sm:h-auto
+       h-screen z-50 sm:h-auto 
      `}
       >
         <div className=" row-span-[1/2] p-4 flex justify-between ">

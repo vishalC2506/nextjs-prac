@@ -12,7 +12,7 @@ export default function Home() {
       <NavBar />
       <div
         className={`row-span-[1/-1] col-span-1    w-full sm:col-span-[2/-1]  h-100vh
-      grid sm:grid-rows-[minmax(min-content,2fr)_minmax(min-content,5fr)_minmax(0,1.1fr)] gap-2  absolute left-0 top-0 sm:relative
+      grid sm:grid-rows-[minmax(min-content,2fr)_minmax(min-content,5fr)_minmax(0,1.1fr)]  gap-2  sm:relative
       grid-rows-[minmax(min-content,1fr)_minmax(min-content,7fr)_minmax(0,1fr)] `}
       >
         <Header />
